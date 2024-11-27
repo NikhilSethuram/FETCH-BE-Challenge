@@ -29,14 +29,15 @@ The Points Management API is a REST API that tracks points for a user across mul
 2. Open a terminal and navigate to the project directory.
 3. Install Flask by running:
    
-pip install flask
+   pip install flask
 
 ## USAGE
 
 1. Make sure you are in project directory
 2. start the server by running
    
-python app.py
+   python app.py
+
 3. The API will be accessible at http://localhost:8000
 
 ## TESTING

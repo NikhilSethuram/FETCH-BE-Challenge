@@ -1,4 +1,4 @@
-#Points Management API
+# Points Management API
 
 ## Overview
 
@@ -37,18 +37,23 @@ The Points Management API is a REST API that tracks points for a user across mul
    python app.py
 3. The API will be accessible at http://localhost:8000
 
-##TESTING
+## TESTING
 
 1.  Open another window in terminal and you can run these curl commands one by one
-    add.
+
+### add.
 
 curl -X POST http://localhost:8000/add -H "Content-Type: application/json" -d '{"payer": "DANNON", "points": 300, "timestamp": "2022-10-31T10:00:00Z"}'
+
 curl -X POST http://localhost:8000/add -H "Content-Type: application/json" -d '{"payer": "UNILEVER", "points": 200, "timestamp": "2022-10-31T11:00:00Z"}'
+
 curl -X POST http://localhost:8000/add -H "Content-Type: application/json" -d '{"payer": "DANNON", "points": -200, "timestamp": "2022-10-31T15:00:00Z"}'
+
 curl -X POST http://localhost:8000/add -H "Content-Type: application/json" -d '{"payer": "MILLER COORS", "points": 10000, "timestamp": "2022-11-01T14:00:00Z"}'
+
 curl -X POST http://localhost:8000/add -H "Content-Type: application/json" -d '{"payer": "DANNON", "points": 1000, "timestamp": "2022-11-02T14:00:00Z"}'
 
-spend.
+### spend.
 
 curl -X POST http://localhost:8000/spend -H "Content-Type: application/json" -d '{"points": 5000}'
 
@@ -59,7 +64,7 @@ expected output -
 { "payer": "MILLER COORS", "points": -4700 }
 ]
 
-balance.
+### balance.
 
 curl -X GET http://localhost:8000/balance
 

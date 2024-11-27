@@ -1,0 +1,27 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I chose Python with Flask for its simplicity and quick setup for REST APIs. Flask is lightweight yet powerful, 
+making it ideal for this exercise. Python's built-in libraries, like datetime for timestamp handling and jsonify 
+for JSON responses, ensure concise and readable code while efficiently meeting the problem's requirements
+
+2. What are the advantages and disadvantages of your solution?
+
+The solution is straightforward and easy to understand, using Python and Flask for quick development.
+In-memory data structures allow for fast access and manipulation of data without database overhead.
+
+The only disadvantage is the lack of persistent storage means all data is lost if the server restarts.
+Additionally, the solution may not handle concurrent requests well and isn't scalable for multiple users or large datasets due to its
+in-memory nature.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+https://enrollbadge.com/
+
+One of my greatest accomplishments was the impact my application enRollBadge had on my school and just overall the whole project. 
+enRollBadge is a web application I created to notify students at our large public school when classes are open or waitlisted as it
+is a common problem, which was motivated by students we saw struggling around us. Not only did the project test my leadership skills as 
+I led a team of 4 developers in different parts of the world, but it also tested my technical skills as it was something that had never
+been done before on an old system that was extremely difficult to navigate with no documentation. 
+This was also my first entrepreneurial experience and I am very glad I was able to lead the company to success.
+Now, enRollBadge helps hundreds of students on campus get the classes they want when they need it and it always puts a smile on my face
+to see how it has changed the process of enrollment in real time.
